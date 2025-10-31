@@ -224,7 +224,11 @@ def send_all_balance(private_key, from_address, recipient, job_id=0, total_jobs=
             }
 
             signed_tx = w3.eth.account.sign_transaction(tx, private_key)
-            raw_tx_hash = w3.eth.send_raw_transaction(signed_tx.raw_transaction)
+            
+            # --- INI ADALAH PERBAIKANNYA ---
+            raw_tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
+            # --------------------------------
+            
             tx_hash = to_hex(raw_tx_hash)
 
             time.sleep(2)
