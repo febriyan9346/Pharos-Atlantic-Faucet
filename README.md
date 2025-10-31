@@ -22,8 +22,8 @@ Automated bot for claiming and transferring tokens from Pharos Atlantic Faucet w
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pharos-faucet-bot.git
-cd pharos-faucet-bot
+git clone https://github.com/febriyan9346/Pharos-Atlantic-Faucet.git
+cd Pharos-Atlantic-Faucet
 ```
 
 2. Install required dependencies:
